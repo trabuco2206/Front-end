@@ -1,0 +1,17 @@
+*{
+    background-color: black;
+}
+
+h1{
+    color: rgb(72, 0, 255);
+}
+
+p{
+    color: #cc00ff;
+}  
+
+button{
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
