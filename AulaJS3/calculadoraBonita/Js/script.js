@@ -14,3 +14,7 @@ function resultado(){
         document.getElementById('tela').value = "Error";
     }
 }
+
+function limpar(){
+    
+}
