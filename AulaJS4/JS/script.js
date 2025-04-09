@@ -16,7 +16,7 @@ function saida(){
 
     for (let i = 0; i < itens.length; i++) {
         let li = document.createElement("li");
-        li.textContent = itens(i);
+        li.textContent = itens[i];
         lista.appendChild(li);
     }
 }
