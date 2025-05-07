@@ -26,3 +26,8 @@ function imprimirObjeto(objLogin){
     impressao.appendChild(pUsuario);
     impressao.appendChild(pSenha);
 }
+
+function converterJson(){
+    const json = JSON.stringify(listaObj);
+    console.log(json);
+}
