@@ -36,4 +36,8 @@ function listar(){
     });
 }
 
+function excluirUsuario(index){
+    const listaUsuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
+}
+
 listar();
