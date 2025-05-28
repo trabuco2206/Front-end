@@ -28,8 +28,8 @@ function listar(){
             <td>${objeto.usuario}</td>
             <td>${objeto.senha}</td>
             <td>
-                <button>Editar</button>
-                <button>Remover</button>
+                <button onclick="editarUsuario(${index})">Editar</button>
+                <button onclick="removerUsuario(${index})">Remover</button>
             </td>
         `;
         tabela.appendChild(linha);
