@@ -38,10 +38,12 @@ function listar(){
 
 function removerUsuario(index){
     const listaUsuarios = JSON.parse(localStorage.getItem("usuarios")) || [];
-    listaUsuarios.splice(index,1);
-    let listajson = JSON.stringify(listaUsuarios);
-    localStorage.setItem("usuarios", listajson);
-    listar();
+    if (confirm("Você realmente quer remover?")) {
+        listaUsuarios.splice(index,1);
+        let listajson = JSON.stringify(listaUsuarios);
+        localStorage.setItem("usuarios", listajson);
+        listar();
+    }    
 }
 
 listar();
